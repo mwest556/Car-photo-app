@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarPhotos</title>
+</head>
+<body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <!-- TODO: Add link to car photos -->
+        <p>See more <a target="_blank" href="https://www.autotrader.co.uk/cars/used"> cars </a> on autotrader.</p>
+        <a href="https://www.autotrader.co.uk/cars/used"><img src="ferrari 458 Italia Matte Black.jpg" alt="A matte black ferrari."></a>
+      </section>
+      <section>
+        <h2>Car Lists</h2>
+        <h3>Things cars need:</h3>
+        <ul>
+          <li>Fuel</li>
+          <li>Paddle shift</li>
+          <li>Nice interiors</li>
+        </ul>
+        <figure>
+          <img src="BMW-5-Series.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cars should be driven <em>fast</em> sometimes.</figcaption>  
+        </figure>
+        <h3>Top 3 things good drivers hate:</h3>
+        <ol>
+          <li>bad drivers</li>
+          <li>obnoxiously slow drivers</li>
+          <li>bad weather</li>
+        </ol>
+        <figure>
+          <img src="Land Rover Defender New.jpg" alt="Five cats looking around a field.">
+          <figcaption>Drivers <strong>hate</strong> traffic.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Car Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your car an automatic or stick?</legend>
+            <label><input id="automatic" type="radio" name="gears" value="automatic" checked> automatic</label>
+            <label><input id="stick" type="radio" name="gears" value="stick"> stick</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your favourite car's make?</legend>
+            <input id="BMW" type="checkbox" name="make" value="BMW" checked> <label for="BMW">BMW</label>
+            <input id="Land Rover" type="checkbox" name="make" value="Land Rover"> <label for="Land Rover">Land Rover</label>
+            <input id="Ferrari" type="checkbox" name="personality" value="Ferrari"> <label for="Ferrari">Ferrari</label>
+          </fieldset>
+          <input type="text" name="carphotourl" placeholder="car photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - another <a href="https://www.freecodecamp.org">Marcus Westhuizen</a> app.
+      </p>
+    </footer>
+</html>
